@@ -5,13 +5,34 @@
 
 body {
     background-color: #f6f8fc;
+    background-image: url('../images/walpapper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+h1 { 
+    text-align: center;
+    color: whitesmoke;
+}
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.863);
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    opacity: 1;
+}
+
+#two .pokemon-details{
+    padding: .5rem;
+    border: solid 2px black;
+    margin: auto;
+    max-width: 90%;
+    background-color: rgb(236, 235, 235);  
+    max-height: 90vh;
+    min-height: 70vh;
 }
 
 @media screen and (min-width: 992px) {
